@@ -1,0 +1,115 @@
+@media screen and (max-width:991px){
+   
+      .spacer-tp{
+        padding-top: 50px;
+      }
+
+      .spacer-td{
+        padding: 50px 0;
+      }
+      .mob-main-menu li a{
+        padding: 10px 0 0 30px;
+        color: black;
+      }
+      .home-deal-banner .banner-text{
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%);
+        width: 50%;
+      }
+      .footer .fo-menu h6,.footer .fo-news h6 {
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+    .slideshow-text .slideshow-sub-heading{
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+    .slideshow-text .slideshow-heading {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+    .theme-heading{
+      margin-bottom: 30px;
+    }
+    .pr-tab .pr-tab-faq {
+      width: 100%;
+      margin: 0 auto;
+  }
+  .spe_img_leftbg{
+    padding: 0 10px 0 0 ;
+  }
+  .spe_img_rightbg{
+    padding: 0 0 0 0;
+  }
+  .template-404 h2{
+    font-size: 60px;
+    color: var(--colorBg);
+  }
+    
+}
+
+
+@media screen and (max-width:767px){
+      .about-counter .info-fields .block-info {
+          border-right: none;
+      }
+      .mega_menu{
+        display: grid !important;
+        grid-template-columns: repeat(2,minmax(250px,1fr));
+    }
+}
+
+
+
+@media screen and (max-width:575px){
+
+  .bottom_top {
+    right: 25px;
+    bottom: 30px;
+  }
+  /* .son{
+    padding: 15px 0;
+  } */
+  .slideshow-text {
+    left: 15px;
+    max-width: 60%;
+  }
+  .slideshow-text .slideshow-heading {
+    font-size: 30px;
+    /* margin-bottom: 15px; */
+  }
+  .slideshow-text .slideshow-sub-heading{
+    /* font-size: 14px; */
+    margin-bottom: 15px;
+  }
+
+  #ct-slider .owl-nav .owl-prev,#ct-slider .owl-nav .owl-next,
+  #home-blog .owl-nav .owl-prev,#home-blog .owl-nav .owl-next,
+  #home-instagram .owl-nav .owl-prev,#home-instagram .owl-nav .owl-next,
+  #pro-slider .owl-nav .owl-prev,#pro-slider .owl-nav .owl-next{
+    display: none;
+  }
+      
+  
+    #bd-card .owl-nav .owl-prev,#bd-card .owl-nav .owl-next{
+      opacity: 1;
+    
+    }
+   
+   
+    #bd-card .owl-nav .owl-prev span,#bd-card .owl-nav .owl-next span{
+      left: -8px;
+    }
+   #bd-card .owl-nav .owl-next span
+   {
+      left: auto;
+      right: -17px;
+    }
+    #bd-card .owl-nav .owl-prev span{
+      top: 0%;
+    }
+
+      
+
+}
