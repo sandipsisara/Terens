@@ -1233,7 +1233,7 @@ table tr:nth-child(even) {
   background-size: 15px;
 }
 .slick-next.slick-arrow{
-  bottom: -10px;
+  bottom:auto;
   top: auto;
   background: url('../image/next-arrow.svg');
   left: 0;
@@ -1278,6 +1278,11 @@ table tr:nth-child(even) {
   padding: 2px;
   background-color: #fff;
   border: 1px solid rgba(0 0 0 / 10%);
+}
+.item-media a img{
+  height: 115px !important;
+  width: 100px !important;
+  object-fit: cover;
 }
 .item-media .item-info a{
   color: var(--comeBlack);

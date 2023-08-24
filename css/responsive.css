@@ -36,9 +36,7 @@
       width: 100%;
       margin: 0 auto;
   }
-  .spe_img_leftbg{
-    padding: 0 10px 0 0 ;
-  }
+  
   .spe_img_rightbg{
     padding: 0 0 0 0;
   }
@@ -54,6 +52,7 @@
       .about-counter .info-fields .block-info {
           border-right: none;
       }
+      
       .mega_menu{
         display: grid !important;
         grid-template-columns: repeat(2,minmax(250px,1fr));
@@ -84,6 +83,13 @@
     margin-bottom: 15px;
   }
 
+  .spe_img_leftbg .slider-nav>div{
+    margin: 6px 0;
+  }
+
+  .add-to-cart ul li a{
+    font-size: 12px;
+  }
   #ct-slider .owl-nav .owl-prev,#ct-slider .owl-nav .owl-next,
   #home-blog .owl-nav .owl-prev,#home-blog .owl-nav .owl-next,
   #home-instagram .owl-nav .owl-prev,#home-instagram .owl-nav .owl-next,
