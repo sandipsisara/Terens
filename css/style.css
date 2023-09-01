@@ -270,6 +270,10 @@ color:var(--colorBg);
   z-index: 9999;
 }
 
+.static{
+  position: static !important;
+}
+
 /* .main-menu li:not(.unset){
   position: relative;
 } */

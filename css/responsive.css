@@ -90,17 +90,24 @@
   .add-to-cart ul li a{
     font-size: 12px;
   }
+  .pr-tab .nav-tabs .nav-item {
+    margin-right: 0;
+}
   #ct-slider .owl-nav .owl-prev,#ct-slider .owl-nav .owl-next,
   #home-blog .owl-nav .owl-prev,#home-blog .owl-nav .owl-next,
   #home-instagram .owl-nav .owl-prev,#home-instagram .owl-nav .owl-next,
-  #pro-slider .owl-nav .owl-prev,#pro-slider .owl-nav .owl-next{
+  #pro-slider .owl-nav .owl-prev,#pro-slider .owl-nav .owl-next,
+  #bd-card .owl-nav .owl-prev,#bd-card .owl-nav .owl-next{
     display: none;
   }
       
   
-    #bd-card .owl-nav .owl-prev,#bd-card .owl-nav .owl-next{
-      opacity: 1;
-    
+   
+    .our_top{
+      display: grid;
+      grid-template-columns: repeat(4,minmax(150px,3fr)) !important;
+      width: 100%;
+      overflow-y: auto;
     }
    
    
